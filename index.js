@@ -1,7 +1,7 @@
 const axios = require("axios");
 
-const apiKey = process.env.MORALIS_KEY || "YOUR_API_KEY";
-const address = "YOUR WALLET ADDRESS";
+const apiKey = process.env.MORALIS_KEY || "REPLACE_WITH_YOUR_MORALIS_API_KEY";
+const address = "REPLACE_WITH_YOUR_WALLET ADDRESS";
 
 const getBalances = async () => {
     try {
