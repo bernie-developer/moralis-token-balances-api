@@ -1,0 +1,24 @@
+{
+  "name": "moralis-token-balances-api",
+  "version": "1.0.1",
+  "description": "Fetch and display wallet token balances using Moralis API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "moralis",
+    "web3",
+    "wallet",
+    "token",
+    "api",
+    "blockchain",
+    "node",
+    "base"
+  ],
+  "author": "bernie-developer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build & Testing
+dist/
+coverage/
+
+# Editor / IDE
+.vscode/
+.history/
+*.code-workspace
