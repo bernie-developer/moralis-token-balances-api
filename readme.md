@@ -23,8 +23,8 @@ npm install
 Configuration: Open index.js and set your Moralis API key and the target wallet address. 
 You have 2 options:
 
-- Directly in the code: Replace "YOUR_API_KEY" with your key.
-- Environment Variable: Set a MORALIS_KEY variable in your environment. The script is configured to prioritize this for better security.
+- Directly in the code: Replace `YOUR_API_KEY` with your key.
+- Environment Variable: Set a `MORALIS_KEY` variable in your environment. The script is configured to prioritize this for better security.
 ```
 const apiKey = "YOUR_API_KEY";
 const address = "0x...";
