@@ -22,9 +22,9 @@ npm install
 
 ### 3. Configuration: Open index.js to configure the script:
 
-Get your API Key: Sign up for the free tier at [admin.moralis.com](https://admin.moralis.com/) to generate your key.
+1. Get your API Key: Sign up for the free tier at [admin.moralis.com](https://admin.moralis.com/) to generate your key.
 
-Set your API Key: Choose one of the following methods:
+2. Set your API Key: Choose one of the following methods:
 
 - Option A (Direct): Replace `YOUR_API_KEY` directly in the code.
 
