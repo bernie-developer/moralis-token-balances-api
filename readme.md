@@ -45,10 +45,10 @@ node index.js
 ## Technical Details
 This project uses the Moralis Wallet API (v2.2). By using the `balance_formatted` field, we avoid manual decimal conversions for various token standards (ERC20). The `exclude_spam` and `exclude_unverified_contracts` parameters are enabled to ensure data quality.
 
-## Video Demo
+## Video Tutorial
 I created a short video to explain the logic behind this implementation and how the response data can be used:
-[Link to your Loom video] 
-Duration: 02:30
+[Video Tutorial](https://www.loom.com/share/d74c7f92b38d40caa26980da1aa3b166)] 
+**Duration:** ~2m 30s
 
 For more information, see the official Moralis documentation:
 [https://docs.moralis.com/web3-data-api/evm/reference/get-wallet-token-balances-price]
