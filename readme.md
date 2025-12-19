@@ -11,12 +11,14 @@ This repository contains a simple Node.js implementation of the Moralis Token Ba
 ## Setup
 
 1. Clone the repository:
-``` git clone https://github.com/bernie-developer/moralis-token-balances-api.git ```
+```
+git clone https://github.com/bernie-developer/moralis-token-balances-api.git
+```
 
-2. Install dependencies:
+3. Install dependencies:
 npm install
 
-3. Configuration:
+4. Configuration:
 Open index.js and add your Moralis API key and the target wallet address:
 const apiKey = "YOUR_API_KEY";
 const address = "0x...";
