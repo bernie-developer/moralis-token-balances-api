@@ -26,11 +26,11 @@ npm install
 
 2. Set your API Key: Choose one of the following methods:
 
-- Option A (Direct): Replace `YOUR_API_KEY` directly in the code.
+* Option A (Direct): Replace `YOUR_API_KEY` directly in the code.
 
-- Option B (Secure): Set a `MORALIS_KEY` environment variable. The script prioritizes this method.
+* Option B (Secure): Set a `MORALIS_KEY` environment variable. The script prioritizes this method.
 
-Set Wallet Address: Update the address variable with the EVM wallet you wish to query.
+3. Set Wallet Address: Update the address variable with the EVM wallet you wish to query.
 ```
 const apiKey = "YOUR_API_KEY";
 const address = "0x...";
