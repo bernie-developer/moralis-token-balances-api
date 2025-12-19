@@ -1,43 +1,36 @@
-# Moralis Token Balances API
+# Moralis Token Balances API Demo
 
-## Wallet Token Balances via Moralis API (Node.js)
+This repository contains a simple Node.js implementation of the Moralis Token Balances API. It demonstrates how to fetch all token balances for a specific wallet address, including current USD prices, in a single API call.
 
-This example demonstrates how to fetch and display native and ERC-20 token balances, including their real-time USD prices, for a wallet address using the Moralis Web3 Data API.
+## Video Walkthrough
+I created a short video to explain the logic behind this implementation and how the response data can be used:
+[Link to your Loom video]
 
-The script queries the Moralis Wallet Token Balances endpoint on the Base chain and outputs a clean, human-readable overview of token balances and their USD values.
+## Features
+- Fetches balances and prices simultaneously (single endpoint).
+- Includes spam and unverified contract filtering.
+- Supports multiple chains (Base, Ethereum, Arbitrum) by changing the chain parameter.
+- Formats crypto balances and USD values for better readability.
 
-### What this code does
+## Setup
 
-* Calls the Moralis `/wallets/{address}/tokens` endpoint
-* Fetches verified, non-spam token balances
-* Formats token balances and USD prices for readable CLI output
-* Runs as a simple Node.js script using Axios
+1. Clone the repository:
+git clone https://github.com/bernie-developer/moralis-token-balances-api.git
 
-### Requirements
+2. Install dependencies:
+npm install
 
-* Node.js 18+
-* [A Moralis API key](https://docs.moralis.com/web3-data-api/evm/get-your-api-key)
-* Axios (`npm install axios`)
+3. Configuration:
+Open index.js and add your Moralis API key and the target wallet address:
+const apiKey = "YOUR_API_KEY";
+const address = "0x...";
 
-### Configuration
+## Usage
+Run the script from your terminal:
+node index.js
 
-Set your Moralis API key as an environment variable:
+## Technical Details
+This project uses the Moralis Wallet API (v2.2). By using the `balance_formatted` field, we avoid manual decimal conversions for various token standards (ERC20). The `exclude_spam` and `exclude_unverified_contracts` parameters are enabled to ensure data quality.
 
-```bash
-export MORALIS_KEY=your_api_key_here
-```
-
-Update the wallet address directly in the script.
-
-### Supported chains
-
-The example uses `base` by default. You can easily switch chains, such as:
-
-* `eth`
-* `arbitrum`
-
-by changing the `chain` parameter.
-
-### Use case
-
-Ideal for developers who want a quick way to inspect wallet holdings, prototype portfolio views, or integrate token balance data into backend services without dealing directly with raw blockchain data.
+For more information, see the official Moralis documentation:
+https://docs.moralis.com/web3-data-api/evm/reference/get-wallet-token-balances-price
