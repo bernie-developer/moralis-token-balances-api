@@ -10,21 +10,27 @@ This repository contains a simple Node.js implementation of the Moralis Token Ba
 
 ## Setup
 
-1. Clone the repository:
+### 1. Clone the repository:
 ```
 git clone [https://github.com/bernie-developer/moralis-token-balances-api.git]
 ```
 
-2. Install dependencies:
+### 2. Install dependencies:
 ```
 npm install
 ```
 
-Configuration: Open index.js and set your Moralis API key and the target wallet address. 
-You have 2 options:
+### 3. Configuration: Open index.js to configure the script:
 
-- Directly in the code: Replace `YOUR_API_KEY` with your key.
-- Environment Variable: Set a `MORALIS_KEY` variable in your environment. The script is configured to prioritize this for better security.
+Get your API Key: Sign up for the free tier at [admin.moralis.com](https://admin.moralis.com/) to generate your key.
+
+Set your API Key: Choose one of the following methods:
+
+- Option A (Direct): Replace `YOUR_API_KEY` directly in the code.
+
+- Option B (Secure): Set a `MORALIS_KEY` environment variable. The script prioritizes this method.
+
+Set Wallet Address: Update the address variable with the EVM wallet you wish to query.
 ```
 const apiKey = "YOUR_API_KEY";
 const address = "0x...";
