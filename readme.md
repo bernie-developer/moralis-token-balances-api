@@ -2,10 +2,6 @@
 
 This repository contains a simple Node.js implementation of the Moralis Token Balances API. It demonstrates how to fetch all token balances for a specific wallet address, including current USD prices, in a single API call.
 
-## Video Walkthrough
-I created a short video to explain the logic behind this implementation and how the response data can be used:
-[Link to your Loom video]
-
 ## Features
 - Fetches balances and prices simultaneously (single endpoint).
 - Includes spam and unverified contract filtering.
@@ -31,6 +27,11 @@ node index.js
 
 ## Technical Details
 This project uses the Moralis Wallet API (v2.2). By using the `balance_formatted` field, we avoid manual decimal conversions for various token standards (ERC20). The `exclude_spam` and `exclude_unverified_contracts` parameters are enabled to ensure data quality.
+
+## Video Demo
+I created a short video to explain the logic behind this implementation and how the response data can be used:
+[Link to your Loom video] 
+Duration: 02:30
 
 For more information, see the official Moralis documentation:
 https://docs.moralis.com/web3-data-api/evm/reference/get-wallet-token-balances-price
