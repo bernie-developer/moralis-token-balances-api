@@ -10,17 +10,17 @@ This repository contains a simple Node.js implementation of the Moralis Token Ba
 
 ## Setup
 
-### 1. Clone the repository:
+#### 1. Clone the repository:
 ```
 git clone [https://github.com/bernie-developer/moralis-token-balances-api.git]
 ```
 
-### 2. Install dependencies:
+#### 2. Install dependencies:
 ```
 npm install
 ```
 
-### 3. Configuration: Open index.js to configure the script:
+#### 3. Configuration: Open index.js to configure the script:
 
 1. Get your API Key: Sign up for the free tier at [admin.moralis.com](https://admin.moralis.com/) to generate your key.
 
