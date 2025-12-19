@@ -12,7 +12,7 @@ This repository contains a simple Node.js implementation of the Moralis Token Ba
 
 1. Clone the repository:
 ```
-git clone https://github.com/bernie-developer/moralis-token-balances-api.git
+git clone [https://github.com/bernie-developer/moralis-token-balances-api.git]
 ```
 
 2. Install dependencies:
@@ -42,4 +42,4 @@ I created a short video to explain the logic behind this implementation and how 
 Duration: 02:30
 
 For more information, see the official Moralis documentation:
-https://docs.moralis.com/web3-data-api/evm/reference/get-wallet-token-balances-price
+[https://docs.moralis.com/web3-data-api/evm/reference/get-wallet-token-balances-price]
