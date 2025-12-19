@@ -12,7 +12,7 @@ This repository contains a simple Node.js implementation of the Moralis Token Ba
 
 #### 1. Clone the repository:
 ```
-git clone [https://github.com/bernie-developer/moralis-token-balances-api.git]
+git clone https://github.com/bernie-developer/moralis-token-balances-api.git
 ```
 
 #### 2. Install dependencies:
