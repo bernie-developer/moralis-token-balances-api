@@ -16,16 +16,22 @@ git clone https://github.com/bernie-developer/moralis-token-balances-api.git
 ```
 
 3. Install dependencies:
+```
 npm install
+```
 
 4. Configuration:
 Open index.js and add your Moralis API key and the target wallet address:
+```
 const apiKey = "YOUR_API_KEY";
 const address = "0x...";
+```
 
 ## Usage
 Run the script from your terminal:
+```
 node index.js
+```
 
 ## Technical Details
 This project uses the Moralis Wallet API (v2.2). By using the `balance_formatted` field, we avoid manual decimal conversions for various token standards (ERC20). The `exclude_spam` and `exclude_unverified_contracts` parameters are enabled to ensure data quality.
