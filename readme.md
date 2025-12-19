@@ -5,7 +5,7 @@ This repository contains a simple Node.js implementation of the Moralis Token Ba
 ## Features
 - Fetches balances and prices simultaneously (single endpoint).
 - Includes spam and unverified contract filtering.
-- Supports multiple chains (Base, Ethereum, Arbitrum) by changing the chain parameter.
+- Supports multiple chains (Base, Ethereum, Arbitrum, ...) by changing the chain parameter.
 - Formats crypto balances and USD values for better readability.
 
 ## Setup
