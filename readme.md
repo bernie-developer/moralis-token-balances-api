@@ -41,8 +41,10 @@ Run the script from your terminal:
 ```
 node index.js
 ```
+![Terminal Output](https://github.com/user-attachments/assets/6e50c2a2-d6b7-4b92-8f0a-16f504b43b66)
 
 #### Technical Details
+
 This project uses the Moralis Wallet API (v2.2). By using the `balance_formatted` field, we avoid manual decimal conversions for various token standards (ERC20). The `exclude_spam` and `exclude_unverified_contracts` parameters are enabled to ensure data quality.
 
 #### Video Tutorial
