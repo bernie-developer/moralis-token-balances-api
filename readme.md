@@ -41,6 +41,8 @@ Run the script from your terminal:
 ```
 node index.js
 ```
+Terminal Output:
+
 <img width="302" height="170" alt="output" src="https://github.com/user-attachments/assets/6e50c2a2-d6b7-4b92-8f0a-16f504b43b66" />
 
 #### Technical Details
