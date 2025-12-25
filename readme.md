@@ -49,10 +49,6 @@ node index.js
 
 This project uses the Moralis Wallet API (v2.2). By using the `balance_formatted` field, we avoid manual decimal conversions for various token standards (ERC20). The `exclude_spam` and `exclude_unverified_contracts` parameters are enabled to ensure data quality.
 
-### Video Tutorial
-I created a short video to explain the logic behind this implementation and how the response data can be used:
-[Video Tutorial](https://www.loom.com/share/d74c7f92b38d40caa26980da1aa3b166) (**Duration:** ~2m 30s)
-
 ### API Documentation
 
 For more information, see the official Moralis documentation:
