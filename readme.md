@@ -37,7 +37,7 @@ const address = "0x...";
 ```
 
 ### Usage
-Run the script from your terminal:
+Run the script from your terminal to see the balances in your console:
 ```
 node index.js
 ```
