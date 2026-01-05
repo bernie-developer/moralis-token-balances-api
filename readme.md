@@ -1,6 +1,6 @@
 ### Moralis Token Balances API Demo
 
-This repository contains a simple Node.js implementation of the Moralis Token Balances API. It demonstrates how to fetch all token balances for a specific wallet address, including current USD prices, in a single API call.
+A reference implementation for fetching and formatting real-time wallet balances using the Moralis Get Wallet Token Balances API. It demonstrates how to fetch all token balances for a specific wallet address, including current USD prices, in a single API call.
 
 ### Features
 - Fetches balances and prices simultaneously (single endpoint).
