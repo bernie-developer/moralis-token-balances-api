@@ -51,4 +51,4 @@ This project uses the Moralis Wallet API (v2.2). By using the `balance_formatted
 
 ### API Documentation
 
-For more information, see the official [Moralis documentation](https://docs.moralis.com/web3-data-api/evm/reference/get-wallet-token-balances-price)
+For more information, see the official [Moralis documentation](https://docs.moralis.com/web3-data-api/evm/reference/get-wallet-token-balances-price).
