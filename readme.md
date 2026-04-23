@@ -2,9 +2,6 @@
 
 A reference implementation for fetching and formatting real-time wallet balances using the Moralis Get Wallet Token Balances API. It demonstrates how to fetch all token balances for a specific wallet address, including current USD prices, in a single API call.
 
-### About this Project
-Originally a second-stage assessment task requiring both this code and a tutorial video. Interestingly, while the requested video stayed at 0 views, developers found the code useful once I made it public. I’ve decided to keep it online as a simple, working example.
-
 ### Features
 - Fetches balances and prices simultaneously (single endpoint).
 - Includes spam and unverified contract filtering.
@@ -55,3 +52,7 @@ This project uses the Moralis Wallet API (v2.2). By using the `balance_formatted
 ### API Documentation
 
 For more information, see the official [Moralis documentation](https://docs.moralis.com/web3-data-api/evm/reference/get-wallet-token-balances-price).
+
+### About this Project
+
+*Originally a second-stage assessment task requiring both this code and a tutorial video. Interestingly, while the requested video stayed at 0 views, developers found the code useful once I made it public. I’ve decided to keep it online as a simple, working example.*
