@@ -19,6 +19,6 @@
   "author": "bernie-developer",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.15.0"
+    "axios": "^1.16.0"
   }
 }
