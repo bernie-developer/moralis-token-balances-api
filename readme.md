@@ -53,6 +53,17 @@ This project uses the Moralis Wallet API (v2.2). By using the `balance_formatted
 
 For more information, see the official [Moralis documentation](https://docs.moralis.com/web3-data-api/evm/reference/get-wallet-token-balances-price).
 
+### Alternative Providers
+
+If you are evaluating blockchain data APIs, you may also want to compare Moralis with:
+
+- [Alchemy](https://www.alchemy.com/) – blockchain APIs, wallet/token data and RPC infrastructure.
+- [QuickNode](https://www.quicknode.com/) – RPC infrastructure, streams and blockchain data APIs.
+- [GoldRush](https://goldrush.dev/) – unified multichain wallet and transaction data.
+- [Zerion API](https://zerion.io/api) – wallet portfolios, token balances and DeFi positions.
+
+This repository uses Moralis because the original implementation was built specifically against the Moralis Wallet API.
+
 ### About this Project
 
-*Originally a second-stage assessment task requiring both this code and a tutorial video. Interestingly, while the requested video stayed at 0 views, developers found the code useful once I made it public. I’ve decided to keep it online as a simple, working example.*
+*Originally a second-stage assessment task requiring both this code and a tutorial video. Interestingly, while the requested video stayed at 0 views, the public repository did attract some developer interest. I’ve decided to keep it online as a simple, working example.*
